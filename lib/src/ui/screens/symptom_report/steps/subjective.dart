@@ -11,6 +11,7 @@ import 'index.dart';
 
 class SubjectiveStep extends StatefulWidget implements SymptomReportStep {
   bool get isLastStep => false;
+  bool get showProgress => true;
 
   @override
   _SubjectiveStepState createState() => _SubjectiveStepState();

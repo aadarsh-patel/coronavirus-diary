@@ -13,6 +13,7 @@ import 'index.dart';
 
 class TemperatureStep extends StatefulWidget implements SymptomReportStep {
   bool get isLastStep => true;
+  bool get showProgress => true;
 
   @override
   _TemperatureStepState createState() => _TemperatureStepState();
